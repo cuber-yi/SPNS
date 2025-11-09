@@ -1,0 +1,470 @@
+﻿{
+  "airCompressionStation": [
+    {
+      "airCompressionStationNumber": "AS-3",
+      "name": "低压空压机组",
+      "realTimePressure": "720",
+      "realTimeFlow": "1229.9999999937208",
+      "totalPower": "7302.859999962764",
+      "wasteFlow": "0",
+      "compressor": [
+        {
+          "Index": "1",
+          "power": "2262.36",
+          "flow": "380",
+          "Valve": "1"
+        },
+        {
+          "Index": "2",
+          "power": "1689.126666654255",
+          "flow": "283.3333333312403",
+          "Valve": "0.7456140350822112"
+        },
+        {
+          "Index": "3",
+          "power": "1689.126666654255",
+          "flow": "283.3333333312403",
+          "Valve": "0.7456140350822112"
+        },
+        {
+          "Index": "4",
+          "power": "1025.9029824486279",
+          "flow": "171.49122806890858",
+          "Valve": "0.7456140350822112"
+        }
+      ]
+    },
+    {
+      "airCompressionStationNumber": "AS-4",
+      "name": "高压空压机组",
+      "realTimePressure": "780",
+      "realTimeFlow": "240.00000000644292",
+      "totalPower": "1430.8820000359729",
+      "wasteFlow": "0",
+      "compressor": [
+        {
+          "Index": "5",
+          "power": "0",
+          "flow": "0",
+          "Valve": "0"
+        }
+      ]
+    }
+  ],
+  "userSide": [
+    {
+      "userSideNumber": "US-10",
+      "name": "新焦化高压风",
+      "realTimePressure": "770.6036294664252",
+      "realTimeFlow": "90.00000000000004"
+    },
+    {
+      "userSideNumber": "US-11",
+      "name": "老焦化-1",
+      "realTimePressure": "760.1477532831186",
+      "realTimeFlow": "70.00000000000104"
+    },
+    {
+      "userSideNumber": "US-12",
+      "name": "老焦化-2",
+      "realTimePressure": "757.6469276107456",
+      "realTimeFlow": "70.00000000000014"
+    },
+    {
+      "userSideNumber": "US-13",
+      "name": "钢轧区域",
+      "realTimePressure": "698.709764471928",
+      "realTimeFlow": "400.00000000000017"
+    },
+    {
+      "userSideNumber": "US-14",
+      "name": "9号锅炉",
+      "realTimePressure": "711.7658139517422",
+      "realTimeFlow": "29.99999999999999"
+    },
+    {
+      "userSideNumber": "US-15",
+      "name": "13#锅炉",
+      "realTimePressure": "713.7874183212489",
+      "realTimeFlow": "45.999999999999936"
+    },
+    {
+      "userSideNumber": "US-16",
+      "name": "4#高炉",
+      "realTimePressure": "715.339330506036",
+      "realTimeFlow": "119.99999999999864"
+    },
+    {
+      "userSideNumber": "US-17",
+      "name": "烧结区域",
+      "realTimePressure": "714.1297136615873",
+      "realTimeFlow": "145.99999999999963"
+    },
+    {
+      "userSideNumber": "US-18",
+      "name": "脱硫脱硝",
+      "realTimePressure": "712.1769293978235",
+      "realTimeFlow": "27.999999999999826"
+    },
+    {
+      "userSideNumber": "US-19",
+      "name": "3#高炉",
+      "realTimePressure": "711.6189642763122",
+      "realTimeFlow": "119.99999999999882"
+    },
+    {
+      "userSideNumber": "US-20",
+      "name": "1~6#锅炉",
+      "realTimePressure": "708.8803113311526",
+      "realTimeFlow": "59.99999999999943"
+    },
+    {
+      "userSideNumber": "US-21",
+      "name": "新焦化低压风",
+      "realTimePressure": "706.8827430889065",
+      "realTimeFlow": "289.9999999999954"
+    }
+  ],
+  "reducing": [],
+  "teeJunction": [
+    {
+      "teeJunctionNumber": "TJ-2",
+      "pressure": "719.4628755649262",
+      "flowA": "0",
+      "flowB": "829.9999999936263",
+      "flowC": "799.9999999936658"
+    },
+    {
+      "teeJunctionNumber": "TJ-3",
+      "pressure": "718.3049634881628",
+      "flowA": "45.999999999999936",
+      "flowB": "753.9999999936584",
+      "flowC": "799.9999999936658"
+    },
+    {
+      "teeJunctionNumber": "TJ-4",
+      "pressure": "717.1567928047192",
+      "flowA": "119.99999999999864",
+      "flowB": "753.9999999936584",
+      "flowC": "633.9999999936306"
+    },
+    {
+      "teeJunctionNumber": "TJ-5",
+      "pressure": "716.8122083205709",
+      "flowA": "145.99999999999963",
+      "flowB": "487.9999999936611",
+      "flowC": "633.9999999936306"
+    },
+    {
+      "teeJunctionNumber": "TJ-6",
+      "pressure": "716.5324101283793",
+      "flowA": "27.999999999999826",
+      "flowB": "459.99999999362456",
+      "flowC": "487.9999999936611"
+    },
+    {
+      "teeJunctionNumber": "TJ-7",
+      "pressure": "713.4458964246538",
+      "flowA": "119.99999999999882",
+      "flowB": "459.99999999362456",
+      "flowC": "339.9999999936222"
+    },
+    {
+      "teeJunctionNumber": "TJ-8",
+      "pressure": "710.5036436446708",
+      "flowA": "59.99999999999943",
+      "flowB": "279.9999999936239",
+      "flowC": "339.9999999936222"
+    },
+    {
+      "teeJunctionNumber": "TJ-9",
+      "pressure": "719.9317390789947",
+      "flowA": "400.00000000000017",
+      "flowB": "1229.9999999937208",
+      "flowC": "829.9999999936263"
+    },
+    {
+      "teeJunctionNumber": "TJ-10",
+      "pressure": "771.9959530176536",
+      "flowA": "90.00000000000004",
+      "flowB": "229.99999999999855",
+      "flowC": "140.0000000000001"
+    },
+    {
+      "teeJunctionNumber": "TJ-11",
+      "pressure": "760.5595418789452",
+      "flowA": "70.00000000000014",
+      "flowB": "140.0000000000001",
+      "flowC": "70.00000000000104"
+    },
+    {
+      "teeJunctionNumber": "TJ-13",
+      "pressure": "707.9288289594598",
+      "flowA": "10.000000006523235",
+      "flowB": "279.9999999936239",
+      "flowC": "289.9999999999954"
+    },
+    {
+      "teeJunctionNumber": "TJ-14",
+      "pressure": "772.1390128619669",
+      "flowA": "10.00000000644487",
+      "flowB": "229.99999999999855",
+      "flowC": "240.00000000644292"
+    }
+  ],
+  "valve": [],
+  "limitFlowValve": [
+    {
+      "LFVNumber": "LFV-3",
+      "massFlow": "10.00000000644487",
+      "pressure": "707.9313949135874"
+    }
+  ],
+  "limitPressureValve": [],
+  "limitDropPValve": [],
+  "compositePipes": [
+    {
+      "compositePipesNumber": "P-4",
+      "pressure": "719.6973073219605",
+      "pressureA": "719.9317390789947",
+      "pressureB": "719.4628755649262",
+      "dropPressure": "0.46886351406853644",
+      "flow": "829.9999999936263",
+      "pipeEfficiency": "0.9996677552456804"
+    },
+    {
+      "compositePipesNumber": "P-7",
+      "pressure": "718.8839195265446",
+      "pressureA": "719.4628755649262",
+      "pressureB": "718.3049634881628",
+      "dropPressure": "1.157912076763343",
+      "flow": "799.9999999936658",
+      "pipeEfficiency": "0.9991782820360902"
+    },
+    {
+      "compositePipesNumber": "P-8",
+      "pressure": "716.0461909047058",
+      "pressureA": "718.3049634881628",
+      "pressureB": "713.7874183212489",
+      "dropPressure": "4.517545166914002",
+      "flow": "45.999999999999936",
+      "pipeEfficiency": "0.9967787399058813"
+    },
+    {
+      "compositePipesNumber": "P-9",
+      "pressure": "716.2480616553776",
+      "pressureA": "717.1567928047192",
+      "pressureB": "715.339330506036",
+      "dropPressure": "1.8174622986831237",
+      "flow": "119.99999999999864",
+      "pipeEfficiency": "0.998703358427949"
+    },
+    {
+      "compositePipesNumber": "P-10",
+      "pressure": "717.730878146441",
+      "pressureA": "718.3049634881628",
+      "pressureB": "717.1567928047192",
+      "dropPressure": "1.1481706834436627",
+      "flow": "753.9999999936584",
+      "pipeEfficiency": "0.9991832149071156"
+    },
+    {
+      "compositePipesNumber": "P-11",
+      "pressure": "716.984500562645",
+      "pressureA": "717.1567928047192",
+      "pressureB": "716.8122083205709",
+      "dropPressure": "0.3445844841483049",
+      "flow": "633.9999999936306",
+      "pipeEfficiency": "0.999754413937114"
+    },
+    {
+      "compositePipesNumber": "P-12",
+      "pressure": "715.4709609910791",
+      "pressureA": "716.8122083205709",
+      "pressureB": "714.1297136615873",
+      "dropPressure": "2.682494658983545",
+      "flow": "145.99999999999963",
+      "pipeEfficiency": "0.9980836634171552"
+    },
+    {
+      "compositePipesNumber": "P-13",
+      "pressure": "714.3546697631014",
+      "pressureA": "716.5324101283793",
+      "pressureB": "712.1769293978235",
+      "dropPressure": "4.355480730555719",
+      "flow": "27.999999999999826",
+      "pipeEfficiency": "0.9968830154269521"
+    },
+    {
+      "compositePipesNumber": "P-14",
+      "pressure": "716.672309224475",
+      "pressureA": "716.8122083205709",
+      "pressureB": "716.5324101283793",
+      "dropPressure": "0.2797981921916362",
+      "flow": "487.9999999936611",
+      "pipeEfficiency": "0.9998004513874817"
+    },
+    {
+      "compositePipesNumber": "P-15",
+      "pressure": "714.9891532765166",
+      "pressureA": "716.5324101283793",
+      "pressureB": "713.4458964246538",
+      "dropPressure": "3.086513703725417",
+      "flow": "459.99999999362456",
+      "pipeEfficiency": "0.9977931107998005"
+    },
+    {
+      "compositePipesNumber": "P-16",
+      "pressure": "712.5324303504831",
+      "pressureA": "713.4458964246538",
+      "pressureB": "711.6189642763122",
+      "dropPressure": "1.826932148341555",
+      "flow": "119.99999999999882",
+      "pipeEfficiency": "0.9986863229341049"
+    },
+    {
+      "compositePipesNumber": "P-17",
+      "pressure": "711.9747700346622",
+      "pressureA": "713.4458964246538",
+      "pressureB": "710.5036436446708",
+      "dropPressure": "2.9422527799831006",
+      "flow": "339.9999999936222",
+      "pipeEfficiency": "0.9978826795423685"
+    },
+    {
+      "compositePipesNumber": "P-18",
+      "pressure": "709.6919774879117",
+      "pressureA": "710.5036436446708",
+      "pressureB": "708.8803113311526",
+      "dropPressure": "1.6233323135181563",
+      "flow": "59.99999999999943",
+      "pipeEfficiency": "0.9988255653923468"
+    },
+    {
+      "compositePipesNumber": "P-20",
+      "pressure": "772.0674829398102",
+      "pressureA": "772.1390128619669",
+      "pressureB": "771.9959530176536",
+      "dropPressure": "0.14305984431318938",
+      "flow": "229.99999999999855",
+      "pipeEfficiency": "0.9999087592993667"
+    },
+    {
+      "compositePipesNumber": "P-22",
+      "pressure": "771.2997912420394",
+      "pressureA": "771.9959530176536",
+      "pressureB": "770.6036294664252",
+      "dropPressure": "1.3923235512285028",
+      "flow": "90.00000000000004",
+      "pipeEfficiency": "0.9991110387620495"
+    },
+    {
+      "compositePipesNumber": "P-23",
+      "pressure": "766.2777474482995",
+      "pressureA": "771.9959530176536",
+      "pressureB": "760.5595418789452",
+      "dropPressure": "11.43641113870847",
+      "flow": "140.0000000000001",
+      "pipeEfficiency": "0.9926501689078318"
+    },
+    {
+      "compositePipesNumber": "P-24",
+      "pressure": "759.1032347448454",
+      "pressureA": "760.5595418789452",
+      "pressureB": "757.6469276107456",
+      "dropPressure": "2.912614268199657",
+      "flow": "70.00000000000014",
+      "pipeEfficiency": "0.9980965030131813"
+    },
+    {
+      "compositePipesNumber": "P-25",
+      "pressure": "760.3536475810319",
+      "pressureA": "760.5595418789452",
+      "pressureB": "760.1477532831186",
+      "dropPressure": "0.4117885958265979",
+      "flow": "70.00000000000104",
+      "pipeEfficiency": "0.9997313244032343"
+    },
+    {
+      "compositePipesNumber": "P-28",
+      "pressure": "715.6143447583341",
+      "pressureA": "719.4628755649262",
+      "pressureB": "711.7658139517422",
+      "dropPressure": "7.697061613184051",
+      "flow": "29.99999999999999",
+      "pipeEfficiency": "0.9945127343545146"
+    },
+    {
+      "compositePipesNumber": "P-29",
+      "pressure": "709.2162363020652",
+      "pressureA": "710.5036436446708",
+      "pressureB": "707.9288289594598",
+      "dropPressure": "2.574814685210935",
+      "flow": "279.9999999936239",
+      "pipeEfficiency": "0.9981359442451492"
+    },
+    {
+      "compositePipesNumber": "P-30",
+      "pressure": "707.4057860241832",
+      "pressureA": "707.9288289594598",
+      "pressureB": "706.8827430889065",
+      "dropPressure": "1.0460858705532736",
+      "flow": "289.9999999999954",
+      "pipeEfficiency": "0.9992393231044441"
+    },
+    {
+      "compositePipesNumber": "P-31",
+      "pressure": "740.0352038877771",
+      "pressureA": "772.1390128619669",
+      "pressureB": "707.9313949135874",
+      "dropPressure": "64.20761794837948",
+      "flow": "10.00000000644487",
+      "pipeEfficiency": "0.9572503104607546"
+    },
+    {
+      "compositePipesNumber": "P-32",
+      "pressure": "707.9301119365235",
+      "pressureA": "707.9313949135874",
+      "pressureB": "707.9288289594598",
+      "dropPressure": "0.0025659541275817902",
+      "flow": "10.000000006523235",
+      "pipeEfficiency": "0.999998135514069"
+    },
+    {
+      "compositePipesNumber": "P-33",
+      "pressure": "709.3207517754614",
+      "pressureA": "719.9317390789947",
+      "pressureB": "698.709764471928",
+      "dropPressure": "21.221974607066716",
+      "flow": "400.00000000000017",
+      "pipeEfficiency": "0.9847406132328458"
+    },
+    {
+      "compositePipesNumber": "P-21",
+      "pressure": "719.9658695394975",
+      "pressureA": "720",
+      "pressureB": "719.9317390789947",
+      "dropPressure": "0.06826092100527603",
+      "flow": "1229.9999999937208",
+      "pipeEfficiency": "0.9999516495196272"
+    },
+    {
+      "compositePipesNumber": "P-3",
+      "pressure": "776.0695064309834",
+      "pressureA": "780",
+      "pressureB": "772.1390128619669",
+      "dropPressure": "7.860987138033146",
+      "flow": "240.00000000644292",
+      "pipeEfficiency": "0.9950369856895867"
+    }
+  ],
+  "systemProperties": [
+    {
+      "efficiency": 99.02015829999222,
+      "systemEfficiency": 99.02015829999222,
+      "totalPower": 8733.741999998736
+    }
+  ],
+  "sendAlgorithmJsonId": 997,
+  "deviceId": 11896185469216
+}

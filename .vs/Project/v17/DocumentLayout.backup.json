@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC70AFD9-9CA1-46E5-AD0B-A47B20904F00}|Project.csproj|d:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\spns\\project\\workers\\mainworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC70AFD9-9CA1-46E5-AD0B-A47B20904F00}|Project.csproj|solutionrelative:workers\\mainworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC70AFD9-9CA1-46E5-AD0B-A47B20904F00}|Project.csproj|d:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\spns\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC70AFD9-9CA1-46E5-AD0B-A47B20904F00}|Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC70AFD9-9CA1-46E5-AD0B-A47B20904F00}|Project.csproj|d:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\spns\\project\\services\\implementations\\optimizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC70AFD9-9CA1-46E5-AD0B-A47B20904F00}|Project.csproj|solutionrelative:services\\implementations\\optimizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC70AFD9-9CA1-46E5-AD0B-A47B20904F00}|Project.csproj|d:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\spns\\project\\services\\implementations\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC70AFD9-9CA1-46E5-AD0B-A47B20904F00}|Project.csproj|solutionrelative:services\\implementations\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OptimizationService.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\services\\Implementations\\OptimizationService.cs",
+              "RelativeDocumentMoniker": "services\\Implementations\\OptimizationService.cs",
+              "ToolTip": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\services\\Implementations\\OptimizationService.cs",
+              "RelativeToolTip": "services\\Implementations\\OptimizationService.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAkwJ0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:45:24.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MqttService.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\services\\Implementations\\MqttService.cs",
+              "RelativeDocumentMoniker": "services\\Implementations\\MqttService.cs",
+              "ToolTip": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\services\\Implementations\\MqttService.cs",
+              "RelativeToolTip": "services\\Implementations\\MqttService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwGMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:05:00.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWorker.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\Workers\\MainWorker.cs",
+              "RelativeDocumentMoniker": "Workers\\MainWorker.cs",
+              "ToolTip": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\Workers\\MainWorker.cs",
+              "RelativeToolTip": "Workers\\MainWorker.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAowMYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:01:00.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u8D44\u6599\\\u4F9B\u6C14\u7AD9\\\u8FD1\u671F\\SPNS\\Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwC8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T07:48:37.25Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

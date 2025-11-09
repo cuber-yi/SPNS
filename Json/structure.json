@@ -1,0 +1,1164 @@
+﻿{
+  "airCompressionStation": [
+    {
+      "airCompressionStationNumber": "AS-1",
+      "compressor": [
+        {
+          "index": "1",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "2",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "3",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "4",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "5",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        }
+      ],
+      "initialFlow": "12",
+      "initialPressure": "720",
+      //"initialPressure": "617.578",
+      "junctions": "P-22",
+      "name": "高线空压站"
+    },
+    {
+      "airCompressionStationNumber": "AS-2",
+      "compressor": [
+        {
+          "index": "1",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "2",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "3",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "4",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "5",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        }
+      ],
+      "initialFlow": "101",
+      "initialPressure": "720",
+      //"initialPressure": "618.812",
+      "junctions": "P-26",
+      "name": "3800空压站"
+    },
+    {
+      "airCompressionStationNumber": "AS-3",
+      "compressor": [
+        {
+          "flow": "0",
+          "index": "1",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300",
+          "power": "0"
+        },
+        {
+          "index": "2",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "3",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "4",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        },
+        {
+          "index": "5",
+          "lowDegree": "0.7",
+          "maxCompressorFlow": "300"
+        }
+      ],
+      "initialFlow": "15",
+      "initialPressure": "720",
+      //"initialPressure": "617.739",
+      "junctions": "P-31",
+      "name": "厚板空压站"
+    }
+  ],
+  "compositePipes": [
+    {
+      "compositePipesNumber": "P-40",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "2",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "RD-1",
+      "junctionsB": "V-1"
+    },
+    {
+      "compositePipesNumber": "P-1",
+      "flowDirection": "-1",
+      "fusionBend": [
+        {
+          "angleDegrees": "45",
+          "quantities": "20"
+        }
+      ],
+      "fusionStraightPipe": [
+        {
+          "diameter": "150",
+          "length": "400",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "US-1",
+      "junctionsB": "RD-4"
+    },
+    {
+      "compositePipesNumber": "P-2",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "76",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-1",
+      "junctionsB": "TJ-2"
+    },
+    {
+      "compositePipesNumber": "P-3",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "259",
+          "length": "130",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "US-2",
+      "junctionsB": "TJ-2"
+    },
+    {
+      "compositePipesNumber": "P-4",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "40",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-2",
+      "junctionsB": "TJ-3"
+    },
+    {
+      "compositePipesNumber": "P-5",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "dragFactor": "0.1",
+          "length": "144",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-3",
+      "junctionsB": "TJ-4"
+    },
+    {
+      "compositePipesNumber": "P-6",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "207",
+          "length": "34",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "US-3",
+      "junctionsB": "RD-1"
+    },
+    {
+      "compositePipesNumber": "P-7",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "71",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-4",
+      "junctionsB": "TJ-5"
+    },
+    {
+      "compositePipesNumber": "P-8",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "150",
+          "length": "169",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-5",
+      "junctionsB": "TJ-6"
+    },
+    {
+      "compositePipesNumber": "P-9",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "150",
+          "length": "645",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-6",
+      "junctionsB": "US-4"
+    },
+    {
+      "compositePipesNumber": "P-10",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "50",
+          "length": "147",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-6",
+      "junctionsB": "US-5"
+    },
+    {
+      "compositePipesNumber": "P-11",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "350",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-5",
+      "junctionsB": "TJ-7"
+    },
+    {
+      "compositePipesNumber": "P-12",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "207",
+          "length": "165",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "US-6",
+      "junctionsB": "TJ-7"
+    },
+    {
+      "compositePipesNumber": "P-13",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "150",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-7",
+      "junctionsB": "RD-2"
+    },
+    {
+      "compositePipesNumber": "P-14",
+      "flowDirection": "1",
+      "fusionBend": [
+        {
+          "angleDegrees": "30",
+          "quantities": "10"
+        }
+      ],
+      "fusionStraightPipe": [
+        {
+          "diameter": "125",
+          "length": "200",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-8",
+      "junctionsB": "US-7"
+    },
+    {
+      "compositePipesNumber": "P-15",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "309",
+          "length": "120",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-8",
+      "junctionsB": "TJ-9"
+    },
+    {
+      "compositePipesNumber": "P-16",
+      "flowDirection": "1",
+      "fusionBend": [
+        {
+          "angleDegrees": "90",
+          "quantities": "1"
+        }
+      ],
+      "fusionStraightPipe": [
+        {
+          "diameter": "309",
+          "length": "10",
+          "roughness": "0.1"
+        },
+        {
+          "diameter": "309",
+          "length": "123",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-9",
+      "junctionsB": "US-8"
+    },
+    {
+      "compositePipesNumber": "P-17",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "408",
+          "length": "59",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-10",
+      "junctionsB": "TJ-9"
+    },
+    {
+      "compositePipesNumber": "P-18",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "309",
+          "length": "11",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-10",
+      "junctionsB": "US-9"
+    },
+    {
+      "compositePipesNumber": "P-19",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "408",
+          "length": "200",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-11",
+      "junctionsB": "TJ-10"
+    },
+    {
+      "compositePipesNumber": "P-20",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "10",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-11",
+      "junctionsB": "TJ-12"
+    },
+    {
+      "compositePipesNumber": "P-21",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "1980",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-12",
+      "junctionsB": "US-10"
+    },
+    {
+      "compositePipesNumber": "P-22",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "15",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "AS-1",
+      "junctionsB": "TJ-12"
+    },
+    {
+      "compositePipesNumber": "P-23",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "20",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-13",
+      "junctionsB": "RD-3"
+    },
+    {
+      "compositePipesNumber": "P-24",
+      "flowDirection": "-1",
+      "fusionBend": [
+        {
+          "angleDegrees": "90",
+          "quantities": "50"
+        },
+        {
+          "angleDegrees": "45",
+          "quantities": "10"
+        }
+      ],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "1684",
+          "roughness": "0.1"
+        },
+        {
+          "diameter": "359",
+          "length": "366",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-3",
+      "junctionsB": "TJ-13"
+    },
+    {
+      "compositePipesNumber": "P-25",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "309",
+          "length": "300",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-14",
+      "junctionsB": "TJ-13"
+    },
+    {
+      "compositePipesNumber": "P-26",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "408",
+          "length": "10",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-14",
+      "junctionsB": "AS-2"
+    },
+    {
+      "compositePipesNumber": "P-27",
+      "dragFactor": "13",
+      "flowDirection": "-1",
+      "flowRates": "13",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "408",
+          "length": "120",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-15",
+      "junctionsB": "TJ-14"
+    },
+    {
+      "compositePipesNumber": "P-28",
+      "dragFactor": "12",
+      "flowDirection": "-1",
+      "flowRates": "12",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "309",
+          "length": "25",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "US-11",
+      "junctionsB": "TJ-15"
+    },
+    {
+      "compositePipesNumber": "P-29",
+      "dragFactor": "141",
+      "flowDirection": "1",
+      "flowRates": "141",
+      "fusionBend": [
+        {
+          "angleDegrees": "90",
+          "quantities": "20"
+        },
+        {
+          "angleDegrees": "90",
+          "quantities": "20"
+        }
+      ],
+      "fusionStraightPipe": [
+        {
+          "diameter": "408",
+          "length": "600",
+          "roughness": "0.1"
+        },
+        {
+          "diameter": "408",
+          "length": "600",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-16",
+      "junctionsB": "TJ-15"
+    },
+    {
+      "compositePipesNumber": "P-30",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "25",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-16",
+      "junctionsB": "TJ-17"
+    },
+    {
+      "compositePipesNumber": "P-31",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "50",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-17",
+      "junctionsB": "AS-3"
+    },
+    {
+      "compositePipesNumber": "P-32",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "73",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-17",
+      "junctionsB": "US-12"
+    },
+    {
+      "compositePipesNumber": "P-33",
+      "flowDirection": "-1",
+      "fusionBend": [
+        {
+          "angleDegrees": "90",
+          "quantities": "10"
+        },
+        {
+          "angleDegrees": "90",
+          "quantities": "20"
+        }
+      ],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "100",
+          "roughness": "0.1"
+        },
+        {
+          "diameter": "460",
+          "length": "485",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-18",
+      "junctionsB": "TJ-16"
+    },
+    {
+      "compositePipesNumber": "P-34",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "259",
+          "length": "28",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "US-13",
+      "junctionsB": "TJ-18"
+    },
+    {
+      "compositePipesNumber": "P-35",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "33",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-18",
+      "junctionsB": "TJ-19"
+    },
+    {
+      "compositePipesNumber": "P-36",
+      "flowDirection": "1",
+      "fusionBend": [
+        {
+          "angleDegrees": "90",
+          "quantities": "20"
+        }
+      ],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "616",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-19",
+      "junctionsB": "TJ-1"
+    },
+    {
+      "compositePipesNumber": "P-37",
+      "flowDirection": "1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "259",
+          "length": "10",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "TJ-19",
+      "junctionsB": "US-14"
+    },
+    {
+      "compositePipesNumber": "P-39",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "110",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "V-1",
+      "junctionsB": "TJ-4"
+    },
+    {
+      "compositePipesNumber": "P-41",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "309",
+          "length": "150",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "RD-2",
+      "junctionsB": "TJ-8"
+    },
+    {
+      "compositePipesNumber": "P-42",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "460",
+          "length": "50",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "RD-3",
+      "junctionsB": "TJ-11"
+    },
+    {
+      "compositePipesNumber": "P-43",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "259",
+          "length": "112",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "RD-4",
+      "junctionsB": "RD-5"
+    },
+    {
+      "compositePipesNumber": "P-44",
+      "flowDirection": "-1",
+      "fusionBend": [],
+      "fusionStraightPipe": [
+        {
+          "diameter": "359",
+          "length": "100",
+          "roughness": "0.1"
+        }
+      ],
+      "fusionValve": [],
+      "junctionsA": "RD-5",
+      "junctionsB": "TJ-1"
+    }
+  ],
+  "deviceId": 7364344938016,
+  "limitDropPValve": [],
+  "limitFlowValve": [],
+  "limitPressureValve": [],
+  "reducing": [
+    {
+      "angleDegrees": "90",
+      "diameterA": "207",
+      "diameterB": "359",
+      "junctionsA": "P-6",
+      "junctionsB": "P-40",
+      "reducingNumber": "RD-1"
+    },
+    {
+      "angleDegrees": "90",
+      "diameterA": "359",
+      "diameterB": "309",
+      "junctionsA": "P-41",
+      "junctionsB": "P-13",
+      "reducingNumber": "RD-2"
+    },
+    {
+      "angleDegrees": "90",
+      "diameterA": "460",
+      "diameterB": "359",
+      "junctionsA": "P-23",
+      "junctionsB": "P-42",
+      "reducingNumber": "RD-3"
+    },
+    {
+      "angleDegrees": "90",
+      "diameterA": "259",
+      "diameterB": "359",
+      "junctionsA": "P-43",
+      "junctionsB": "P-44",
+      "reducingNumber": "RD-5"
+    },
+    {
+      "angleDegrees": "90",
+      "diameterA": "150",
+      "diameterB": "259",
+      "junctionsA": "P-1",
+      "junctionsB": "P-43",
+      "reducingNumber": "RD-4"
+    }
+  ],
+  "sendAlgorithmJsonId": 490,
+  "systemProperties": [
+    {
+      "efficiency": "0",
+      "fluidNumber": 0,
+      "temperature": "20",
+      "totalPower": "100"
+    }
+  ],
+  "teeJunction": [
+    {
+      "junctionsA": "P-36",
+      "junctionsB": "P-44",
+      "junctionsC": "P-2",
+      "teeJunctionNumber": "TJ-1"
+    },
+    {
+      "junctionsA": "P-3",
+      "junctionsB": "P-2",
+      "junctionsC": "P-4",
+      "teeJunctionNumber": "TJ-2"
+    },
+    {
+      "junctionsA": "P-24",
+      "junctionsB": "P-4",
+      "junctionsC": "P-5",
+      "teeJunctionNumber": "TJ-3"
+    },
+    {
+      "junctionsA": "P-39",
+      "junctionsB": "P-5",
+      "junctionsC": "P-7",
+      "teeJunctionNumber": "TJ-4"
+    },
+    {
+      "junctionsA": "P-8",
+      "junctionsB": "P-7",
+      "junctionsC": "P-11",
+      "teeJunctionNumber": "TJ-5"
+    },
+    {
+      "junctionsA": "P-10",
+      "junctionsB": "P-8",
+      "junctionsC": "P-9",
+      "teeJunctionNumber": "TJ-6"
+    },
+    {
+      "junctionsA": "P-12",
+      "junctionsB": "P-11",
+      "junctionsC": "P-13",
+      "teeJunctionNumber": "TJ-7"
+    },
+    {
+      "junctionsA": "P-17",
+      "junctionsB": "P-15",
+      "junctionsC": "P-16",
+      "teeJunctionNumber": "TJ-9"
+    },
+    {
+      "junctionsA": "P-18",
+      "junctionsB": "P-19",
+      "junctionsC": "P-17",
+      "teeJunctionNumber": "TJ-10"
+    },
+    {
+      "junctionsA": "P-22",
+      "junctionsB": "P-20",
+      "junctionsC": "P-21",
+      "teeJunctionNumber": "TJ-12"
+    },
+    {
+      "angleDegrees": "45",
+      "diameterAB": "8",
+      "diameterC": "30",
+      "flowA": "15",
+      "flowB": "20",
+      "flowC": "21",
+      "flowDirectionA": "1",
+      "flowDirectionB": "1",
+      "flowDirectionC": "-1",
+      "flowRates": "10",
+      "junctionsA": "P-25",
+      "junctionsB": "P-24",
+      "junctionsC": "P-23",
+      "pressure": "1.5",
+      "teeJunctionNumber": "TJ-13"
+    },
+    {
+      "angleDegrees": "131",
+      "diameterAB": "131",
+      "diameterC": "131",
+      "flowA": "131",
+      "flowB": "131",
+      "flowC": "131",
+      "flowDirectionA": "1",
+      "flowDirectionB": "-1",
+      "flowDirectionC": "1",
+      "flowRates": "131",
+      "junctionsA": "P-25",
+      "junctionsB": "P-27",
+      "junctionsC": "P-26",
+      "pressure": "131",
+      "teeJunctionNumber": "TJ-14"
+    },
+    {
+      "angleDegrees": "121",
+      "diameterAB": "121",
+      "diameterC": "121",
+      "flowA": "121",
+      "flowB": "121",
+      "flowC": "121",
+      "flowDirectionA": "1",
+      "flowDirectionB": "-1",
+      "flowDirectionC": "1",
+      "flowRates": "121",
+      "junctionsA": "P-28",
+      "junctionsB": "P-29",
+      "junctionsC": "P-27",
+      "pressure": "121",
+      "teeJunctionNumber": "TJ-15"
+    },
+    {
+      "junctionsA": "P-29",
+      "junctionsB": "P-33",
+      "junctionsC": "P-30",
+      "teeJunctionNumber": "TJ-16"
+    },
+    {
+      "junctionsA": "P-32",
+      "junctionsB": "P-30",
+      "junctionsC": "P-31",
+      "teeJunctionNumber": "TJ-17"
+    },
+    {
+      "junctionsA": "P-34",
+      "junctionsB": "P-35",
+      "junctionsC": "P-33",
+      "teeJunctionNumber": "TJ-18"
+    },
+    {
+      "junctionsA": "P-37",
+      "junctionsB": "P-35",
+      "junctionsC": "P-36",
+      "teeJunctionNumber": "TJ-19"
+    },
+    {
+      "junctionsA": "P-14",
+      "junctionsB": "P-41",
+      "junctionsC": "P-15",
+      "teeJunctionNumber": "TJ-8"
+    },
+    {
+      "junctionsA": "P-19",
+      "junctionsB": "P-42",
+      "junctionsC": "P-20",
+      "teeJunctionNumber": "TJ-11"
+    }
+  ],
+  "type": "1",
+  "unit": {
+    "flowRatesUnits": "m/s",
+    "fluidDensityUnits": "kg/m3",
+    "hydraulicDiamUnits": "mm",
+    "initialFlowUnits": "Nm3/min",
+    "initialPressureUnits": "Pa",
+    "lengthUnits": "m",
+    "massFlowUnits": "Kg/s",
+    "pressureDropUnits": "Pa",
+    "roughnessUnits": "mm",
+    "temperatureUnits": "℃",
+    "valveMeasureUnits": "%"
+  },
+  "userSide": [
+    {
+      "initialFlow": "42",
+      "junctions": "P-1",
+      "userSideNumber": "US-1",
+      "usersName": "中线厂线",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "193",
+      "junctions": "P-3",
+      "userSideNumber": "US-2",
+      "usersName": "水处理",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "110",
+      "junctions": "P-6",
+      "userSideNumber": "US-3",
+      "usersName": "C3除尘",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "6",
+      "junctions": "P-9",
+      "userSideNumber": "US-4",
+      "usersName": "老球团",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "1",
+      "junctions": "P-10",
+      "userSideNumber": "US-5",
+      "usersName": "C1除尘",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "95",
+      "junctions": "P-12",
+      "userSideNumber": "US-6",
+      "usersName": "新2#高炉",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "20",
+      "junctions": "P-14",
+      "userSideNumber": "US-7",
+      "usersName": "球团",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "63",
+      "junctions": "P-16",
+      "userSideNumber": "US-8",
+      "usersName": "C2除尘",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "118",
+      "junctions": "P-18",
+      "userSideNumber": "US-9",
+      "usersName": "新1#高炉",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "196",
+      "junctions": "P-21",
+      "userSideNumber": "US-10",
+      "usersName": "烧结",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "98",
+      "initialPressure": "1011",
+      "junctions": "P-28",
+      "userSideNumber": "US-11",
+      "usersName": "厚板厂3800线",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "136",
+      "initialPressure": "10",
+      "junctions": "P-32",
+      "userSideNumber": "US-12",
+      "usersName": "厚板厂线",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "184",
+      "junctions": "P-34",
+      "userSideNumber": "US-13",
+      "usersName": "高线",
+      "warmPressure": "700000"
+    },
+    {
+      "initialFlow": "130",
+      "initialPressure": "2551",
+      "junctions": "P-37",
+      "userSideNumber": "US-14",
+      "usersName": "炼钢厂",
+      "warmPressure": "700000"
+    }
+  ],
+  "valve": [
+    {
+      "diameter": "359",
+      "flowDirection": "1",
+      "junctionsA": "P-39",
+      "junctionsB": "P-40",
+      "valveMeasure": "1",
+      "valveNumber": "V-1",
+      "valveType": "1"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "MqttOptions": {
+    "Server": "open.flyreport.cn",
+    "Port": 20007,
+    "ClientId": "PipeNetworkCalculator",
+    "StructureTopic": "Structure",
+    "StaticCalculateTopic": "Static_Calculate",
+    "DynamicCalculateTopic": "Dynamic_Calculate",
+    "ResultTopic": "CalculationResult",
+    "FeedbackTopic": "ResultsReceived"
+  },
+  "FilePaths": {
+    "Structure": "Json/structure.json",
+    "StaticCalculate": "Json/Static_Calculate.json",
+    "DynamicCalculate": "Json/usersflow.json",
+    "Output": "Json/output.json"
+  },
+  "OptimizationOptions": {
+    "PopulationSize": 50,
+    "MaxIterations": 500,
+    "StepSize": 2000
+  }
+}
